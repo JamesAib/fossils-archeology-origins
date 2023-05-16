@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.STONE_SLAB#0"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#0"
+      },
+      {
+        "value": "Blocks.STONE_SLAB#0"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.LOG"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DNAinjectorItem"
+    },
+    "name": "dn_ainjector",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks"
+  },
+  "render_type": "solid"
+}

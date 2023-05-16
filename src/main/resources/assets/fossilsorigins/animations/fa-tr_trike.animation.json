@@ -1,0 +1,130 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Triceratops.move": {
+			"loop": true,
+			"bones": {
+				"body_connect_to_tail": {
+					"rotation": {
+						"vector": [0, "math.cos(-50+query.anim_time*600)", 0]
+					}
+				},
+				"tail_connect_body": {
+					"rotation": {
+						"vector": [0, "math.cos(-50+query.anim_time*500)", 0]
+					}
+				},
+				"tail_connect_to_tail_connect_to_body": {
+					"rotation": {
+						"vector": [0, "math.cos(-25+query.anim_time*400)", 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", "-math.clamp(math.cos(query.anim_time*300)*2,0,2)"]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*300)*1.5", "math.clamp(math.cos(query.anim_time*300)*2,0,2)"]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Triceratops.sprint": {
+			"loop": true,
+			"bones": {
+				"body_connect_to_tail": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*800)*5", "math.cos(query.anim_time*800)*5", 0]
+					}
+				},
+				"tail_connect_body": {
+					"rotation": {
+						"vector": [0, "math.cos(-50+query.anim_time*800)*10", 0]
+					}
+				},
+				"tail_connect_to_tail_connect_to_body": {
+					"rotation": {
+						"vector": [0, "math.cos(-25+query.anim_time*800)*10", 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*400)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*400)*1.5", "-math.clamp(math.cos(query.anim_time*400)*2,0,2)"]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*400)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*400)*1.5", "math.clamp(math.cos(query.anim_time*400)*2,0,2)"]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*400)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*400)*1.5", 0]
+					}
+				},
+				"right_arm": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*400)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*400)*1.5", 0]
+					}
+				},
+				"bone": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*800)*2.5", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Triceratops.idle": {
+			"loop": true,
+			"bones": {
+				"bone": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*100)    ", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

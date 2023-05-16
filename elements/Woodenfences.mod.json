@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineFence"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "wooden_fences",
+    "namespace": "minecraft"
+  }
+}

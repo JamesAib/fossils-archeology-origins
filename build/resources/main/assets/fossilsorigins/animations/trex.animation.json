@@ -1,0 +1,180 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.tyrannosuarus.walking": {
+			"loop": true,
+			"animation_length": 3,
+			"bones": {
+				"body_connected_to_neck": {
+					"rotation": {
+						"vector": ["17.5+math.sin(query.anim_time*600)", 0, 0]
+					}
+				},
+				"neck_connected_to_head": {
+					"rotation": {
+						"vector": [-22.5, 0, 0]
+					}
+				},
+				"tail_connected_to_body": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*400)", 0, 0]
+					}
+				},
+				"tail_connected_to_tail_connected_to_body": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*600)*2", 0, 0]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*300)*1.5", 0]
+					}
+				}
+			}
+		},
+		"animation.tyrannosuarus.eating": {
+			"animation_length": 3,
+			"bones": {
+				"body_connected_to_neck": {
+					"rotation": {
+						"0.0": {
+							"vector": [27.5, 0, 0]
+						},
+						"0.3333": {
+							"vector": [40, 0, 0]
+						},
+						"0.9167": {
+							"vector": [0, 0, 0]
+						},
+						"2.875": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-5, 0, 0]
+						},
+						"1.0": {
+							"vector": [-37.09, 0, 0]
+						},
+						"2.5": {
+							"vector": [-5, 0, 0]
+						},
+						"2.875": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"lower": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.4167": {
+							"vector": [25, 0, 0]
+						},
+						"1.3333": {
+							"vector": [0, 0, 0]
+						},
+						"1.5": {
+							"vector": [25, 0, 0]
+						},
+						"1.6667": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"neck_connected_to_head": {
+					"rotation": {
+						"0.0": {
+							"vector": [-22, 0, 0]
+						},
+						"0.1667": {
+							"vector": [3, 0, 0]
+						},
+						"2.875": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.tyrannosuarus.idle": {
+			"loop": true,
+			"animation_length": 2,
+			"bones": {
+				"body_connected_to_neck": {
+					"rotation": {
+						"vector": ["10+math.sin(query.anim_time*100)", 0, 0]
+					}
+				},
+				"tail_connected_to_body": {
+					"rotation": {
+						"vector": ["12 +math.sin(query.anim_time*40)", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.tyrannosuarus.attack": {
+			"animation_length": 1.5,
+			"bones": {
+				"body_connected_to_neck": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.9167": {
+							"vector": [17.5, 0, 0]
+						},
+						"1.375": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"neck_connected_to_head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2083": {
+							"vector": [10, 0, 0]
+						},
+						"0.5": {
+							"vector": [17.5, 0, 0]
+						},
+						"1.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"lower": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2917": {
+							"vector": [25, 0, 0]
+						},
+						"1.0": {
+							"vector": [2.5, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

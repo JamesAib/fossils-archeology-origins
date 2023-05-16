@@ -1,0 +1,7 @@
+
+{
+  "parent": "fossilsorigins:displaysettings/dnainjector.item",
+  "textures": {
+    "particle": "fossilsorigins:blocks/texture"
+  }
+}

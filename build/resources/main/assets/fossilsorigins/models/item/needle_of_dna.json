@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fossilsorigins:items/needle_full_of_dna"
+  }
+}

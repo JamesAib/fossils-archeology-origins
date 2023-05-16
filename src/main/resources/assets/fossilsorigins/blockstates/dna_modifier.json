@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fossilsorigins:custom/dna_modifier_particle"
+    },
+    "facing=east": {
+      "model": "fossilsorigins:custom/dna_modifier_particle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fossilsorigins:custom/dna_modifier_particle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fossilsorigins:custom/dna_modifier_particle",
+      "y": 270
+    }
+  }
+}

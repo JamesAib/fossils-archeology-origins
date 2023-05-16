@@ -1,0 +1,7 @@
+
+{
+  "parent": "fossilsorigins:displaysettings/dnamodifier.item",
+  "textures": {
+    "particle": "fossilsorigins:blocks/dnamodifer"
+  }
+}

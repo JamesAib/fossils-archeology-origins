@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks"
+  },
+  "render_type": "solid"
+}

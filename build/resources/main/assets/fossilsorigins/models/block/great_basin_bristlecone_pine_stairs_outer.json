@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "bottom": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks",
+    "top": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks",
+    "side": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks"
+  },
+  "render_type": "solid"
+}

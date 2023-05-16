@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fossilsorigins:great_basin_bristlecone_pine_log"
+    }
+  ],
+  "result": {
+    "item": "fossilsorigins:great_basin_bristlecone_pine_planks",
+    "count": 4
+  }
+}

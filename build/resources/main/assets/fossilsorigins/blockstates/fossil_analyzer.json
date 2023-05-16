@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fossilsorigins:block/fossil_analyzer"
+    },
+    "facing=east": {
+      "model": "fossilsorigins:block/fossil_analyzer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fossilsorigins:block/fossil_analyzer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fossilsorigins:block/fossil_analyzer",
+      "y": 270
+    }
+  }
+}

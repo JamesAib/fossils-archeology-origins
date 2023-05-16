@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineWood"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "greatbasinbristleconepine_log",
+    "namespace": "forge"
+  }
+}

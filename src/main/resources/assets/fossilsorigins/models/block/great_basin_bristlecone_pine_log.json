@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossilsorigins:blocks/greatbasinbristleconepine_log_top",
+    "up": "fossilsorigins:blocks/greatbasinbristleconepine_log_top",
+    "north": "fossilsorigins:blocks/greatbasinbristleconepine_log_side",
+    "east": "fossilsorigins:blocks/greatbasinbristleconepine_log_side",
+    "south": "fossilsorigins:blocks/greatbasinbristleconepine_log_side",
+    "west": "fossilsorigins:blocks/greatbasinbristleconepine_log_side",
+    "particle": "fossilsorigins:blocks/greatbasinbristleconepine_log_top"
+  },
+  "render_type": "solid"
+}

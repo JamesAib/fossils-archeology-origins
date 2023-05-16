@@ -1,0 +1,115 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Carnotaurus.move": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*800)*1.5", 0]
+					}
+				},
+				"body_connected_to_body": {
+					"rotation": {
+						"vector": [7.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -0.5]
+					}
+				},
+				"neck_connected_to_head": {
+					"rotation": {
+						"vector": [10, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, -1]
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-17.5, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0.5, -1.15]
+					}
+				},
+				"lower": {
+					"rotation": {
+						"vector": [17.5, 0, 0]
+					}
+				},
+				"tail_connected_to_tail_connected_to_body": {
+					"rotation": {
+						"vector": ["math.sin(-50+query.anim_time*800)*5", "math.cos(-50+query.anim_time*800)*10", 0]
+					},
+					"position": {
+						"vector": [0, 0, -1]
+					}
+				},
+				"left_leg": {
+					"rotation": {
+						"vector": ["-Math.cos(query.anim_time*400)*30", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*400)*1.5", 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["Math.cos(query.anim_time*400)*30", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*400)*1.5", 0]
+					}
+				}
+			}
+		},
+		"animation.Carnotaurus.attack": {
+			"animation_length": 0.5,
+			"bones": {
+				"neck_connected_to_head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [27.5, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"vector": [-12.5, 0, 0]
+					}
+				},
+				"lower": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [47.5, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.Carnotaurus.idle": {
+			"loop": true,
+			"bones": {
+				"body2": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*100)", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

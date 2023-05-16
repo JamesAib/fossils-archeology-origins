@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "fossilsorigins:blocks/ancient_leaves",
+    "particle": "fossilsorigins:blocks/ancient_leaves"
+  }
+}

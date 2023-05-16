@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineLog"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineLog"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePineLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreatBasinBristleconePineWood"
+    },
+    "name": "great_basin_bristlecone_pine_wood_recipe",
+    "namespace": "mod"
+  }
+}

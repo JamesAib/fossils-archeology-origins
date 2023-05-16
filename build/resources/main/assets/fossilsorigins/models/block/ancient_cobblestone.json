@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossilsorigins:blocks/ancient_cobblestone",
+    "up": "fossilsorigins:blocks/ancient_cobblestone",
+    "north": "fossilsorigins:blocks/ancient_cobblestone",
+    "east": "fossilsorigins:blocks/ancient_cobblestone",
+    "south": "fossilsorigins:blocks/ancient_cobblestone",
+    "west": "fossilsorigins:blocks/ancient_cobblestone",
+    "particle": "fossilsorigins:blocks/ancient_cobblestone"
+  },
+  "render_type": "solid"
+}

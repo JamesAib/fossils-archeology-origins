@@ -1,0 +1,120 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Pteranodon.move": {
+			"loop": true,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"Left_wing": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*27.5", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*25", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*2", 0]
+					}
+				},
+				"MainBody": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150)*3", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Pteranodon.flying": {
+			"loop": true,
+			"animation_length": 2.5,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"vector": [60, 0, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": [60, 0, 0]
+					}
+				},
+				"Left_wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 60]
+						},
+						"0.25": {
+							"vector": [0, 0, 85]
+						},
+						"0.5": {
+							"vector": [0, 0, "85 + math.sin(query.anim_time*100)*30"]
+						}
+					}
+				},
+				"lowerwingleft": {
+					"rotation": {
+						"vector": [0, 0, -144]
+					}
+				},
+				"right_wing": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -60]
+						},
+						"0.25": {
+							"vector": [0, 0, -85]
+						},
+						"0.5": {
+							"vector": [0, 0, "-85 -math.sin(query.anim_time*100)*30"]
+						}
+					}
+				},
+				"lowerwingright": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 144]
+						},
+						"0.5": {
+							"vector": [0, 0, 144]
+						}
+					}
+				},
+				"MainBody": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150) ", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Pteranodon.idle": {
+			"loop": true,
+			"bones": {
+				"MainBody": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

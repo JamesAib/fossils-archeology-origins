@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "fossilsorigins:ancient_cobblestone"
+  },
+  "result": "fossilsorigins:ancient_stone"
+}

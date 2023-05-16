@@ -1,0 +1,33 @@
+{
+  "_fv": 39,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "WANDERING_TRADER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:AncientStone"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 20,
+            "xp": 5,
+            "priceMultiplier": 0.015
+          }
+        ]
+      }
+    ]
+  }
+}

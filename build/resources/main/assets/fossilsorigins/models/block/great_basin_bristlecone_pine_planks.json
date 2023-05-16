@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks",
+    "particle": "fossilsorigins:blocks/great_basin_bristlecone_pine_planks"
+  },
+  "render_type": "solid"
+}

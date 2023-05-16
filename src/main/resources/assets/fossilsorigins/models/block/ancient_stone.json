@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossilsorigins:blocks/ancient_tone",
+    "up": "fossilsorigins:blocks/ancient_tone",
+    "north": "fossilsorigins:blocks/ancient_tone",
+    "east": "fossilsorigins:blocks/ancient_tone",
+    "south": "fossilsorigins:blocks/ancient_tone",
+    "west": "fossilsorigins:blocks/ancient_tone",
+    "particle": "fossilsorigins:blocks/ancient_tone"
+  },
+  "render_type": "solid"
+}

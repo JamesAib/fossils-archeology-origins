@@ -1,0 +1,87 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Crylocryolophosaurus.move": {
+			"loop": true,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*25", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*25", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"Body": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Crylocryolophosaurus.attack": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.625,
+			"bones": {
+				"neck_connected_to_head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2917": {
+							"vector": [40, 0, 0]
+						},
+						"0.5833": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2917": {
+							"vector": [-42.5, 0, 0]
+						},
+						"0.5833": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"lower": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.2917": {
+							"vector": [40, 0, 0]
+						},
+						"0.5833": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.Crylocryolophosaurus.idle": {
+			"loop": true,
+			"bones": {
+				"Body": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

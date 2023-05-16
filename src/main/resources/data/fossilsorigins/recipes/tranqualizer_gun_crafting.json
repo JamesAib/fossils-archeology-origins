@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "fossilsorigins:needle"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:gunpowder"
+    },
+    "6": {
+      "item": "minecraft:green_terracotta"
+    },
+    "7": {
+      "item": "minecraft:iron_nugget"
+    },
+    "8": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "fossilsorigins:tranqualizer_dart",
+    "count": 1
+  }
+}

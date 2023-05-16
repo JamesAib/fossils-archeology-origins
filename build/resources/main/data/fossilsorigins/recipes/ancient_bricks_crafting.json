@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fossilsorigins:ancient_stone"
+    },
+    {
+      "item": "fossilsorigins:ancient_stone"
+    },
+    {
+      "item": "fossilsorigins:ancient_stone"
+    },
+    {
+      "item": "fossilsorigins:ancient_stone"
+    }
+  ],
+  "result": {
+    "item": "fossilsorigins:ancient_bricks",
+    "count": 1
+  }
+}

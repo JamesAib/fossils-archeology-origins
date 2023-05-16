@@ -1,0 +1,36 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Compsognathus.move": {
+			"loop": true,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*400)*25", 0, 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*400)*25", 0, 0]
+					}
+				},
+				"body": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Compsognathus.idle": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,47 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Pachycephalosaurus.move": {
+			"loop": true,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"vector": ["-Math.cos(query.anim_time*400)*30", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*400)*1.5", 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["Math.cos(query.anim_time*400)*30", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*400)*1.5", 0]
+					}
+				},
+				"Bodymain": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*500)", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Pachycephalosaurus.idle": {
+			"loop": true,
+			"bones": {
+				"tail_connected_to_body": {
+					"rotation": {
+						"vector": [0, "math.sin(query.anim_time*150)", 0]
+					}
+				},
+				"Bodymain": {
+					"rotation": {
+						"vector": ["math.sin(query.anim_time*150)", 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

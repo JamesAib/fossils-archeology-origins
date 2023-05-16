@@ -1,0 +1,4702 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ankylosaurus",
+      "type": "animatedentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/AnkylosaurusModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/AnkylosaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/AnkylosaurusEntity.java",
+          "src/main/resources/assets/fossilsorigins/models/item/ankylosaurus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Brachiosaurus",
+      "type": "animatedentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/BrachiosaurusEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/BrachiosaurusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/brachiosaurus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/BrachiosaurusRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Carnotaurus",
+      "type": "animatedentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/CarnotaurusEntity.java",
+          "src/main/resources/assets/fossilsorigins/models/item/carnotaurus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/CarnotaurusModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/CarnotaurusRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Compsognathus",
+      "type": "animatedentity",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/CompsognathusEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/CompsognathusModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/CompsognathusRenderer.java",
+          "src/main/resources/assets/fossilsorigins/models/item/compsognathus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Cryolophosaurus",
+      "type": "animatedentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/CryolophosaurusModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/CryolophosaurusRenderer.java",
+          "src/main/resources/assets/fossilsorigins/models/item/cryolophosaurus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/entity/CryolophosaurusEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Dilophosaurus",
+      "type": "animatedentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/DilophosaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/DilophosaurusEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/DilophosaurusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dilophosaurus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Dimetrodon",
+      "type": "animatedentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/DimetrodonEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/DimetrodonRenderer.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dimetrodon_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/DimetrodonModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Dryosaurus",
+      "type": "animatedentity",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/DryosaurusEntity.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dryosaurus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/DryosaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/DryosaurusModel.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Galimimus",
+      "type": "animatedentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/GalimimusEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/GalimimusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/GalimimusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/galimimus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "SettingMobParameters",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setting_mob_parameters",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/SettingMobParametersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Mosasaurus",
+      "type": "animatedentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosasaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/MosasaurusEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/MosasaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/MosasaurusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/mosasaurus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Oviraptor",
+      "type": "animatedentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/OviraptorModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/OviraptorEntity.java",
+          "src/main/resources/assets/fossilsorigins/models/item/oviraptor_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/OviraptorRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Pachycephalosaurus",
+      "type": "animatedentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/PachycephalosaurusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/pachycephalosaurus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/PachycephalosaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/PachycephalosaurusEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Plesiosuarus",
+      "type": "animatedentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plesiosuarus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/PlesiosuarusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/PlesiosuarusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/plesiosuarus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/entity/PlesiosuarusEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Pteranodon",
+      "type": "animatedentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/PteranodonModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/pteranodon_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/PteranodonRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/PteranodonEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Spinosaurus",
+      "type": "animatedentity",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/SpinosaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/SpinosaurusModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/SpinosaurusEntity.java",
+          "src/main/resources/assets/fossilsorigins/models/item/spinosaurus_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Stegosaurus",
+      "type": "animatedentity",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/StegosaurusRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/StegosaurusModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/stegosaurus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/entity/StegosaurusEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Tyrannosauraus",
+      "type": "animatedentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosauraus",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/tyrannosauraus_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/TyrannosaurausRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/TyrannosaurausModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/TyrannosaurausEntity.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Triceratops",
+      "type": "animatedentity",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/TriceratopsRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/TriceratopsEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/TriceratopsModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/triceratops_spawn_egg.json"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Velociraptor",
+      "type": "animatedentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/VelociraptorEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/model/VelociraptorModel.java",
+          "src/main/resources/assets/fossilsorigins/models/item/velociraptor_spawn_egg.json",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/VelociraptorRenderer.java"
+        ]
+      },
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Fossils",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossils",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/blockstates/fossils.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/FossilsBlock.java",
+          "src/main/resources/data/fossilsorigins/forge/biome_modifier/fossils_biome_modifier.json",
+          "src/main/resources/assets/fossilsorigins/models/item/fossils.json",
+          "src/main/resources/assets/fossilsorigins/models/block/fossils.json",
+          "src/main/java/com/praepositi/fossilsorigins/world/features/ores/FossilsFeature.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "TyrannosaurusFossil",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/tyrannosaurus_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/TyrannosaurusFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BrachiosaurusFossil",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/BrachiosaurusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/brachiosaurus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "TriceratopsFossil",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/TriceratopsFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/triceratops_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AnkylosaurusFossil",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/ankylosaurus_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/AnkylosaurusFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "StegosaurusFossil",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/stegosaurus_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/StegosaurusFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GalimimusFossil",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/GalimimusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/galimimus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "OviraptorFossil",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/oviraptor_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/OviraptorFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "VelociraptorFossil",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/velociraptor_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/VelociraptorFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpinosaurusFossil",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/spinosaurus_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/SpinosaurusFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CryolophosaurusFossil",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CryolophosaurusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/cryolophosaurus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CarnotaurusFossil",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CarnotaurusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/carnotaurus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DilophosaurusFossil",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DilophosaurusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dilophosaurus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DimetrodonFossil",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/dimetrodon_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/DimetrodonFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DryosaurusFossil",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DryosaurusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dryosaurus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CompsognathusFossil",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CompsognathusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/compsognathus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PachycephalosaurusFossil",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/pachycephalosaurus_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/PachycephalosaurusFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MosasaurusFossils",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosasaurus_fossils",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/MosasaurusFossilsItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/mosasaurus_fossils.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PlesiosuarusFossil",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plesiosuarus_fossil",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/PlesiosuarusFossilItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/plesiosuarus_fossil.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PteranodonFossil",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_fossil",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/pteranodon_fossil.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/PteranodonFossilItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "OnWorldLoad",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_world_load",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/OnWorldLoadProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "FossilsDrops",
+      "type": "loottable",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossils_drops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/loot_tables/blocks/fossils.json"
+        ]
+      },
+      "path": "~/BlockDrops"
+    },
+    {
+      "name": "FossilAnalyzer",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_analyzer",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/block/entity/FossilAnalyzerBlockEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/FossilAnalyzerBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/block/fossil_analyzer.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/fossil_analyzer.json",
+          "src/main/resources/assets/fossilsorigins/models/item/fossil_analyzer.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FossilsOrigins",
+      "type": "tab",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossils_origins",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AnalyzerInterface",
+      "type": "gui",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "analyzer_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/gui/AnalyzerInterfaceScreen.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/inventory/AnalyzerInterfaceMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "TyrannosaurusDNA",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/tyrannosaurus_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/TyrannosaurusDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BrachiosaurusDNA",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/brachiosaurus_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/BrachiosaurusDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "TriceratopsDNA",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/TriceratopsDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/triceratops_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AnkylosaurusDNA",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/AnkylosaurusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/ankylosaurus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CarnotaurusDNA",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CarnotaurusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/carnotaurus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "StegosaurusDNA",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/stegosaurus_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/StegosaurusDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CompsognathusDNA",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CompsognathusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/compsognathus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DryosaurusDNA",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DryosaurusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dryosaurus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "OviraptorDNA",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/oviraptor_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/OviraptorDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GalimimusDNA",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/GalimimusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/galimimus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PachycephalosaurusDNA",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/pachycephalosaurus_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/PachycephalosaurusDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DilophosaurusDNA",
+      "type": "item",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DilophosaurusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dilophosaurus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PteranodonDNA",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/PteranodonDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/pteranodon_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DimetrodonDNA",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/dimetrodon_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/DimetrodonDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "VelociraptorDNA",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/VelociraptorDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/velociraptor_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpinosaurusDNA",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/spinosaurus_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/SpinosaurusDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MosasaurusDNA",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosasaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/mosasaurus_dna.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/MosasaurusDNAItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PlesiosuarusDNA",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plesiosuarus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/PlesiosuarusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/plesiosuarus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CryolophosaurusDNA",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CryolophosaurusDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/cryolophosaurus_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "FossilAnalyzerFunctionality",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_analyzer_functionality",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/FossilAnalyzerFunctionalityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "TyrannosaurusEggItem",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/tyrannosaurus_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/TyrannosaurusEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "BrachiosaurusEggItem",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/BrachiosaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/brachiosaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "TriceratopsEggItem",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/TriceratopsEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/triceratops_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AnkylosaurusEggItem",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/ankylosaurus_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/AnkylosaurusEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "StegosaurusEggItem",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/StegosaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/stegosaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "GalimimusEggItem",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/GalimimusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/galimimus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "OviraptorEggItem",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/OviraptorEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/oviraptor_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "VelociraptorEggItem",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/VelociraptorEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/velociraptor_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SpinosaurusEggItem",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/SpinosaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/spinosaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CryolophosaurusEggItem",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/cryolophosaurus_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/CryolophosaurusEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DilophosaurusEggItem",
+      "type": "item",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DilophosaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dilophosaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CarnotaurusEggItem",
+      "type": "item",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/CarnotaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/carnotaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PteranodonEggItem",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/pteranodon_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/PteranodonEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PlesiosuarusEggItem",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plesiosuarus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/plesiosuarus_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/PlesiosuarusEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DimetrodonEggItem",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DimetrodonEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dimetrodon_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "DryosaurusEggItem",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/dryosaurus_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/DryosaurusEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "CompsognathusEggItem",
+      "type": "item",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/compsognathus_egg_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/CompsognathusEggItemItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "PachycephalosaurusEggItem",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/PachycephalosaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/pachycephalosaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "MosasaurusEggItem",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosasaurus_egg_item",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/MosasaurusEggItemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/mosasaurus_egg_item.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "TyrannosaurusHatching",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/TyrannosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "AnkylosaurusHatching",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/AnkylosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "BrachiosaurusHatching",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/BrachiosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "CarnotaurusHatching",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CarnotaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "CompsognathusHatching",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CompsognathusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "DilophosaurusHatching",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DilophosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "DryosaurusHatching",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DryosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "PachycephlosuarusHatching",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephlosuarus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PachycephlosuarusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "PteranodonHatching",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PteranodonHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "StegosaurusHatching",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/StegosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "TriceratopsHatching",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/TriceratopsHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "CryolophosaurusHatching",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CryolophosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "DimetrodonHatching",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DimetrodonHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "GalimimusHatching",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/GalimimusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "OviraptorHatching",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/OviraptorHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "PlesiosuarusHatching",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plesiosuarus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PlesiosuarusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "SpinosaurusHatching",
+      "type": "procedure",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/SpinosaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "VelociraptorHatching",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/VelociraptorHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "TyrannosaurausEggEntity",
+      "type": "livingentity",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosauraus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/TyrannosaurausEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/TyrannosaurausEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "AnkylosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/AnkylosaurusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/AnkylosaurusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "BrachiosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/BrachiosaurusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/BrachiosaurusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "CarnotaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/CarnotaurusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/CarnotaurusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "CompsognathusEggEntity",
+      "type": "livingentity",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/CompsognathusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/CompsognathusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "DilophosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/DilophosaurusEggEntityRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/DilophosaurusEggEntityEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "DryosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/DryosaurusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/DryosaurusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "PachycephalosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/PachycephalosaurusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/PachycephalosaurusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "PteranodonEggEntity",
+      "type": "livingentity",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/PteranodonEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/PteranodonEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "StegosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/StegosaurusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/StegosaurusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "TriceratopsEggEntity",
+      "type": "livingentity",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/TriceratopsEggEntityRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/TriceratopsEggEntityEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "CryolophosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/CryolophosaurusEggEntityRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/CryolophosaurusEggEntityEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "DimetrodonEggEntity",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/DimetrodonEggEntityRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/DimetrodonEggEntityEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "GalimimusEggEntity",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/GalimimusEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/GalimimusEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "SpinosaurusEggEntity",
+      "type": "livingentity",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/SpinosaurusEggEntityRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/SpinosaurusEggEntityEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "VelociraptorEggEntity",
+      "type": "livingentity",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/VelociraptorEggEntityEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/VelociraptorEggEntityRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "OviraptorEggEntity",
+      "type": "livingentity",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_egg_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/OviraptorEggEntityRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/OviraptorEggEntityEntity.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "TyrannosaurausEggPlacement",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tyrannosauraus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/TyrannosaurausEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "AnkylosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankylosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/AnkylosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "BrachiosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/BrachiosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "CarnotaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnotaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CarnotaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "CompsognathusEggPlacement",
+      "type": "procedure",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "compsognathus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CompsognathusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "DilophosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DilophosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "DryosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DryosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "PachycephalosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachycephalosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PachycephalosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "PteranodonEggPlacement",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PteranodonEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "StegosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stegosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/StegosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "TriceratopsEggPlacement",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/TriceratopsEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "CryolophosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryolophosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CryolophosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "DimetrodonEggPlacement",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimetrodon_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DimetrodonEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "GalimimusEggPlacement",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/GalimimusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "SpinosaurusEggPlacement",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosaurus_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/SpinosaurusEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "VelociraptorEggPlacement",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "velociraptor_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/VelociraptorEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "OviraptorEggPlacement",
+      "type": "procedure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oviraptor_egg_placement",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/OviraptorEggPlacementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggPlacement"
+    },
+    {
+      "name": "IncubatorFunctionality",
+      "type": "procedure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "incubator_functionality",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/IncubatorFunctionalityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "InchubatorInterface",
+      "type": "gui",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inchubator_interface",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/client/gui/InchubatorInterfaceScreen.java",
+          "src/main/java/com/praepositi/fossilsorigins/network/InchubatorInterfaceSlotMessage.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/inventory/InchubatorInterfaceMenu.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "GreatBasinBristleconePineWood",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePineWoodBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_wood.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_wood.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_wood.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineLog",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_log.json",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_log.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_log.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePineLogBlock.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePinePlanks",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_planks.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePinePlanksBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_planks.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineStairs",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePineStairsBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_stairs.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_stairs.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_stairs.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_stairs_outer.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_stairs_inner.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineFence",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence_post.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_fence.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence_inventory.json",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_fence.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePineFenceBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineFenceGate",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence_gate_wall.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence_gate.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_fence_gate.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence_gate_wall_open.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePineFenceGateBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_fence_gate_open.json",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_fence_gate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePinePressurePlate",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_pressure_plate_down.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_pressure_plate.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePinePressurePlateBlock.java",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_pressure_plate.json",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineButton",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_button",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/block/GreatBasinBristleconePineButtonBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_button_pressed.json",
+          "src/main/resources/assets/fossilsorigins/models/item/great_basin_bristlecone_pine_button.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_button.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/great_basin_bristlecone_pine_button.json",
+          "src/main/resources/assets/fossilsorigins/models/block/great_basin_bristlecone_pine_button_inventory.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineItemsTag",
+      "type": "tag",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/greatbasinbristleconepine_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineWoodRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_wood_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineStairsRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineSlabRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_slab_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineFenceRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_fence_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePinePressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineButtonRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_button_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineStickRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_bristlecone_pine_stick_recipe.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientStone",
+      "type": "block",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/ancient_stone.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/ancient_stone.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/AncientStoneBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/block/ancient_stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientCobblestone",
+      "type": "block",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/blockstates/ancient_cobblestone.json",
+          "src/main/resources/assets/fossilsorigins/models/block/ancient_cobblestone.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/AncientCobblestoneBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/ancient_cobblestone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientWorld",
+      "type": "dimension",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_world",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/world/dimension/AncientWorldDimension.java",
+          "src/main/resources/data/fossilsorigins/dimension/ancient_world.json",
+          "src/main/resources/data/fossilsorigins/dimension_type/ancient_world.json"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "AncientStoneSmelting",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stone_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/ancient_stone_smelting.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "MosasaurusHatching",
+      "type": "procedure",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosasaurus_hatching",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/MosasaurusHatchingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures/EggHatching"
+    },
+    {
+      "name": "MosasaurusSexualDimorphism",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mosasaurus_sexual_dimorphism",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/MosasaurusSexualDimorphismProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "GreatBasinWoodPlanks",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_wood_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/great_basin_wood_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientBricks",
+      "type": "block",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/ancient_bricks.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/ancient_bricks.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/AncientBricksBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/ancient_bricks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AnkySexualDiffrences",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anky_sexual_diffrences",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/AnkySexualDiffrencesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "TrexSexualDiffrence",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trex_sexual_diffrence",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/TrexSexualDiffrenceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "StegoSeuxaldimorphisim",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stego_seuxaldimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/StegoSeuxaldimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "Spinosexualdimorphisim",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spinosexualdimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/SpinosexualdimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "PteranodonSexualDimorphodon",
+      "type": "procedure",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pteranodon_sexual_dimorphodon",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PteranodonSexualDimorphodonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "PlesioSexualDimorphosim",
+      "type": "procedure",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plesio_sexual_dimorphosim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PlesioSexualDimorphosimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "GalimimusSexualDimorphisim",
+      "type": "procedure",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "galimimus_sexual_dimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/GalimimusSexualDimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "DilophosaurusSexualDimorphisim",
+      "type": "procedure",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dilophosaurus_sexual_dimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DilophosaurusSexualDimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "DemitrodonSexualDimorphisim",
+      "type": "procedure",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demitrodon_sexual_dimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DemitrodonSexualDimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "CarnoSexualDimorphisim",
+      "type": "procedure",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carno_sexual_dimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CarnoSexualDimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "BrachiosaurusSexualDimorphosim",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brachiosaurus_sexual_dimorphosim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/BrachiosaurusSexualDimorphosimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "TriceratopsSexualDimorphisim",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "triceratops_sexual_dimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/TriceratopsSexualDimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "DryosaurusSexualDimorphisim",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dryosaurus_sexual_dimorphisim",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/DryosaurusSexualDimorphisimProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures/SexualDimorphism"
+    },
+    {
+      "name": "AncientPlains",
+      "type": "biome",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_plains",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/world/features/treedecorators/AncientPlainsFruitDecorator.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/biome/AncientPlainsBiome.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/features/treedecorators/AncientPlainsLeaveDecorator.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/features/treedecorators/AncientPlainsTrunkDecorator.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "AncientGateway",
+      "type": "item",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_gateway",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/AncientGatewayItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/ancient_gateway.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "AncientEntry",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_entry",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/AncientEntryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "AncientLeaves",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/blockstates/ancient_leaves.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/AncientLeavesBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/ancient_leaves.json",
+          "src/main/resources/assets/fossilsorigins/models/block/ancient_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientBricksCrafting",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_bricks_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/ancient_bricks_crafting.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Woodenfences",
+      "type": "tag",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "woodenfences",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wooden_fences.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LogTag",
+      "type": "tag",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Stonetag",
+      "type": "tag",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stonetag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/stone.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PlanksTag",
+      "type": "tag",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "planks_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientGatewayCrafting",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_gateway_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/ancient_gateway_crafting.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Copper_toolsPickaxe",
+      "type": "tool",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/copper_tools_pickaxe.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/Copper_toolsPickaxeItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsAxe",
+      "type": "tool",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/Copper_toolsAxeItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/copper_tools_axe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsSword",
+      "type": "tool",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/Copper_toolsSwordItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/copper_tools_sword.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsShovel",
+      "type": "tool",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/copper_tools_shovel.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/Copper_toolsShovelItem.java"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsHoe",
+      "type": "tool",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/Copper_toolsHoeItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/copper_tools_hoe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_tools_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_tools_axe_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_tools_sword_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_tools_shovel_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "Copper_toolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_tools_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_tools_hoe_recipe.json"
+        ]
+      },
+      "path": "~/tools"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/copper_armor_leggings.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/CopperArmorItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/fossilsorigins/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/fossilsorigins/models/item/copper_armor_chestplate.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "CopperArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "CopperArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_armor_body_recipe.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "CopperArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "CopperArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/copper_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/armor"
+    },
+    {
+      "name": "AncientJungle",
+      "type": "biome",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_jungle",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/world/features/treedecorators/AncientJungleFruitDecorator.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/biome/AncientJungleBiome.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/features/treedecorators/AncientJungleTrunkDecorator.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/features/treedecorators/AncientJungleLeaveDecorator.java"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "DNAinjector",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dn_ainjector",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/dn_ainjector.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "FossilAnalyser",
+      "type": "recipe",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fossil_analyser",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/fossil_analyser.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DNAInjectorBlock",
+      "type": "animatedblock",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_injector_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/dna_injector_block_item.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/dna_injector_block.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/entity/DNAInjectorBlockBlockEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/renderer/DNAInjectorBlockTileRenderer.java",
+          "src/main/resources/assets/fossilsorigins/models/custom/dna_injector_block_particle.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/DNAInjectorBlockBlock.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/entity/DNAInjectorBlockTileEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/renderer/DNAInjectorBlockDisplayItemRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/model/DNAInjectorBlockBlockModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/model/DNAInjectorBlockDisplayModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/display/DNAInjectorBlockDisplayItem.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DNAModifier",
+      "type": "animatedblock",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dna_modifier",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/blockstates/dna_modifier.json",
+          "src/main/resources/assets/fossilsorigins/models/item/dna_modifier_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/renderer/DNAModifierTileRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/display/DNAModifierDisplayItem.java",
+          "src/main/resources/assets/fossilsorigins/models/custom/dna_modifier_particle.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/DNAModifierBlock.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/model/DNAModifierBlockModel.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/renderer/DNAModifierDisplayItemRenderer.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/entity/DNAModifierBlockEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/entity/DNAModifierTileEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/block/model/DNAModifierDisplayModel.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DNAmodifierGUI",
+      "type": "gui",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dn_amodifier_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/network/DNAmodifierGUIButtonMessage.java",
+          "src/main/java/com/praepositi/fossilsorigins/world/inventory/DNAmodifierGUIMenu.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/gui/DNAmodifierGUIScreen.java"
+        ]
+      },
+      "path": "~/GUI"
+    },
+    {
+      "name": "SetEggParameters",
+      "type": "procedure",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_egg_parameters",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/SetEggParametersProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "NeedleOfDNA",
+      "type": "item",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_of_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/NeedleOfDNAItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/needle_of_dna.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Needle",
+      "type": "item",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/NeedleItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/needle.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "NeedleCrafting",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/needle_crafting.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "ChangingDinoDNA",
+      "type": "procedure",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "changing_dino_dna",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/ChangingDinoDNAProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "DNAmodiferCrafting",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dn_amodifer_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/dn_amodifer_crafting.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "GreatBasinBristleconePineLogTrade",
+      "type": "villagertrade",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "great_basin_bristlecone_pine_log_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "AncientStoneTrade",
+      "type": "villagertrade",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stone_trade",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Paleontologist",
+      "type": "livingentity",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paleontologist",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/entity/PaleontologistEntity.java",
+          "src/main/java/com/praepositi/fossilsorigins/client/renderer/PaleontologistRenderer.java"
+        ]
+      },
+      "path": "~/Other"
+    },
+    {
+      "name": "DNAinjectorItem",
+      "type": "item",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dn_ainjector_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/dn_ainjector_item.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/DNAinjectorItemItem.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "DNAmodifierITem",
+      "type": "item",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dn_amodifier_i_tem",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/item/DNAmodifierITemItem.java",
+          "src/main/resources/assets/fossilsorigins/models/item/dn_amodifier_i_tem.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PlacingDNAinjector",
+      "type": "procedure",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placing_dn_ainjector",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PlacingDNAinjectorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "PlacingDNAmodifier",
+      "type": "procedure",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placing_dn_amodifier",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/PlacingDNAmodifierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NeedleFullofTranqualizer",
+      "type": "item",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needle_fullof_tranqualizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/needle_fullof_tranqualizer.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/NeedleFullofTranqualizerItem.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "TranqualizerDart",
+      "type": "rangeditem",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tranqualizer_dart",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/item/tranqualizer_dart.json",
+          "src/main/java/com/praepositi/fossilsorigins/item/TranqualizerDartItem.java",
+          "src/main/java/com/praepositi/fossilsorigins/entity/TranqualizerDartEntity.java"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "TranqualizerGunCrafting",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tranqualizer_gun_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/tranqualizer_gun_crafting.json"
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "SetTranqualisedValue",
+      "type": "procedure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_tranqualised_value",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/SetTranqualisedValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "AttackPlayerTranqVal",
+      "type": "procedure",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_player_tranq_val",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/AttackPlayerTranqValProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "CareValueCreatures",
+      "type": "procedure",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "care_value_creatures",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/CareValueCreaturesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "EnergyBasedHunting",
+      "type": "procedure",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energy_based_hunting",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/EnergyBasedHuntingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "HuntFeeding",
+      "type": "procedure",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hunt_feeding",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/HuntFeedingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "FeedingCarnivores",
+      "type": "procedure",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feeding_carnivores",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/FeedingCarnivoresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "EatingGrass",
+      "type": "procedure",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eating_grass",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/EatingGrassProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "Breeding",
+      "type": "procedure",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "breeding",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/BreedingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "EatingHerbavores",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eating_herbavores",
+      "metadata": {
+        "files": [
+          "src/main/java/com/praepositi/fossilsorigins/procedures/EatingHerbavoresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedures"
+    },
+    {
+      "name": "NeedlefulloftranqualizerCrafting",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "needlefulloftranqualizer_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fossilsorigins/recipes/needlefulloftranqualizer_crafting.json"
+        ]
+      },
+      "path": "~/items"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.fossilsorigins.ankylosaurus": "Ankylosaurus",
+      "item.fossilsorigins.dimetrodon_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "entity.fossilsorigins.pachycephalosaurus": "Pachycephalosaurus",
+      "biome.fossilsorigins.ancient_jungle": "Ancient Plains",
+      "entity.fossilsorigins.triceratops": "Triceratops",
+      "item.fossilsorigins.dimetrodon_spawn_egg": "Dimetrodon Spawn Egg",
+      "item.fossilsorigins.ankylosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.brachiosaurus_fossil": "Brachiosaurus Fossil",
+      "item.fossilsorigins.compsognathus_dna": "Compsognathus DNA",
+      "item.fossilsorigins.compsognathus_fossil": "Compsognathus Fossil",
+      "entity.fossilsorigins.brachiosaurus": "Brachiosaurus",
+      "item.fossilsorigins.brachiosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.pachycephalosaurus_spawn_egg": "Pachycephalosaurus Spawn Egg",
+      "item.fossilsorigins.triceratops_fossil": "Triceratops Fossil",
+      "item.fossilsorigins.dimetrodon_dna": "Dimetrodon DNA",
+      "item.fossilsorigins.triceratops_dna": "Triceratops DNA",
+      "entity.fossilsorigins.cryolophosaurus": "Cryolophosaurus",
+      "entity.fossilsorigins.mosasaurus": "Mosasaurus",
+      "item.fossilsorigins.tyrannosaurus_egg_item": "Tyrannosaurus Egg",
+      "block.fossilsorigins.great_basin_bristlecone_pine_log": "Great Basin Bristlecone Pine Log",
+      "entity.fossilsorigins.brachiosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.copper_armor_boots": "Copper Boots",
+      "item.fossilsorigins.velociraptor_spawn_egg": "Velociraptor Spawn Egg",
+      "block.fossilsorigins.ancient_cobblestone": "Ancient Cobblestone",
+      "gui.fossilsorigins.dn_amodifier_gui.gender": "female",
+      "item.fossilsorigins.copper_tools_sword": "Copper_tools Sword",
+      "item.fossilsorigins.ankylosaurus_dna": "Ankylosaurus DNA",
+      "entity.fossilsorigins.spinosaurus": "Spinosaurus",
+      "gui.fossilsorigins.dn_amodifier_gui.Size": "1",
+      "entity.fossilsorigins.velociraptor_egg_entity": "Dino Egg",
+      "block.fossilsorigins.great_basin_bristlecone_pine_planks": "Great Basin Bristlecone Pine Planks",
+      "item.fossilsorigins.galimimus_dna": "Galimimus DNA",
+      "item.fossilsorigins.dilophosaurus_egg_item": "Dilophosaurus Egg",
+      "item.fossilsorigins.copper_tools_hoe": "Copper_tools Hoe",
+      "entity.fossilsorigins.tyrannosauraus": "Tyrannosaurausrex",
+      "item.fossilsorigins.stegosaurus_dna": "Stegosaurus DNA",
+      "item.fossilsorigins.carnotaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.triceratops_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "block.fossilsorigins.fossils": "Fossils",
+      "item.fossilsorigins.tranqualizer_dart": "Tranqualizer Dart",
+      "item.fossilsorigins.mosasaurus_spawn_egg": "Mosasaurus Spawn Egg",
+      "entity.fossilsorigins.cryolophosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.pachycephalosaurus_dna": "Pachycephalosaurus DNA",
+      "entity.fossilsorigins.velociraptor": "Velociraptor",
+      "item.fossilsorigins.dilophosaurus_fossil": "Dilophosaurus Fossil",
+      "item.fossilsorigins.galimimus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.cryolophosaurus_fossil": "Cryolophosaurus Fossil",
+      "item.fossilsorigins.plesiosuarus_dna": "Plesiosuarus DNA",
+      "item.fossilsorigins.compsognathus_spawn_egg": "Compsognathus Spawn Egg",
+      "item.fossilsorigins.copper_armor_chestplate": "Copper Chestplate",
+      "item.fossilsorigins.dryosaurus_dna": "Dryosaurus DNA",
+      "entity.fossilsorigins.dilophosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.pteranodon_fossil": "Pteranodon Fossil",
+      "item.fossilsorigins.dimetrodon_egg_item": "Dimetrodon Egg",
+      "item.fossilsorigins.spinosaurus_fossil": "Spinosaurus Fossil",
+      "entity.fossilsorigins.pachycephalosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.oviraptor_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "entity.fossilsorigins.dilophosaurus": "Dilophosaurus",
+      "item.fossilsorigins.tyrannosauraus_spawn_egg": "Tyrannosaurausrex Spawn Egg",
+      "item.fossilsorigins.stegosaurus_egg_item": "Stegosaurus Egg",
+      "itemGroup.tabfossils_origins": "Fossils Origins",
+      "gui.fossilsorigins.incubator_interface.button_infuse_dna": "Infuse DNA",
+      "item.fossilsorigins.pteranodon_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "entity.fossilsorigins.dryosaurus": "Dryosaurus",
+      "block.fossilsorigins.ancient_bricks": "Ancient Stone",
+      "item.fossilsorigins.cryolophosaurus_egg_item": "Cryolophosaurus Egg",
+      "item.fossilsorigins.triceratops_egg_item": "Triceratops Egg",
+      "entity.fossilsorigins.compsognathus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.velociraptor_dna": "Velociraptor DNA",
+      "item.fossilsorigins.stegosaurus_fossil": "Stegosaurus Fossil",
+      "block.fossilsorigins.great_basin_bristlecone_pine_wood": "Great Basin Bristlecone Pine Wood",
+      "item.fossilsorigins.cryolophosaurus_spawn_egg": "Cryolophosaurus Spawn Egg",
+      "item.fossilsorigins.velociraptor_fossil": "Velociraptor Fossil",
+      "item.fossilsorigins.dryosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.spinosaurus_spawn_egg": "Spinosaurus Spawn Egg",
+      "entity.fossilsorigins.compsognathus": "Compsognathus",
+      "item.fossilsorigins.cryolophosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.dryosaurus_fossil": "Dryosaurus Fossil",
+      "entity.fossilsorigins.dryosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.plesiosuarus_egg_item": "Plesiosuarus Sack",
+      "entity.fossilsorigins.stegosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.galimimus_egg_item": "Galimimus Egg",
+      "item.fossilsorigins.plesiosuarus_fossil": "Plesiosuarus Fossil",
+      "item.fossilsorigins.copper_tools_axe": "Copper_tools Axe",
+      "entity.fossilsorigins.tyrannosauraus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.velociraptor_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.needle": "Needle",
+      "block.fossilsorigins.fossil_analyzer": "Fossil Analyzer",
+      "block.fossilsorigins.great_basin_bristlecone_pine_fence_gate": "Great Basin Bristlecone Pine Fence Gate",
+      "item.fossilsorigins.pteranodon_dna": "Pteranodon DNA",
+      "item.fossilsorigins.dimetrodon_fossil": "Dimetrodon Fossil",
+      "item.fossilsorigins.dn_amodifier_i_tem": "DNA Amodifier",
+      "item.fossilsorigins.pachycephalosaurus_fossil": "Pachycephalosaurus Fossil",
+      "item.fossilsorigins.brachiosaurus_dna": "Brachiosaurus DNA",
+      "entity.fossilsorigins.triceratops_egg_entity": "Dino Egg",
+      "item.fossilsorigins.dryosaurus_egg_item": "Dryosaurus Egg",
+      "entity.fossilsorigins.stegosaurus": "Stegosaurus",
+      "entity.fossilsorigins.ankylosaurus_egg_entity": "Dino Egg",
+      "item.fossilsorigins.copper_armor_leggings": "Copper Leggings",
+      "item.fossilsorigins.brachiosaurus_egg_item": "Brachiosaurus Egg",
+      "item.fossilsorigins.tyrannosaurus_dna": "Tyrannosaurus DNA",
+      "item.fossilsorigins.brachiosaurus_spawn_egg": "Brachiosaurus Spawn Egg",
+      "item.fossilsorigins.carnotaurus_fossil": "Carnotaurus Fossil",
+      "item.fossilsorigins.dilophosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.dryosaurus_spawn_egg": "Dryosaurus Spawn Egg",
+      "entity.fossilsorigins.galimimus_egg_entity": "Dino Egg",
+      "block.fossilsorigins.great_basin_bristlecone_pine_stairs": "Great Basin Bristlecone Pine Stairs",
+      "item.fossilsorigins.oviraptor_egg_item": "Oviraptor Egg",
+      "entity.fossilsorigins.carnotaurus_egg_entity": "Dino Egg",
+      "entity.fossilsorigins.oviraptor_egg_entity": "Dino Egg",
+      "item.fossilsorigins.stegosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "biome.fossilsorigins.ancient_plains": "Ancient Plains",
+      "item.fossilsorigins.paleontologist_spawn_egg": "Paleontologist Spawn Egg",
+      "item.fossilsorigins.spinosaurus_egg_item": "Spinosaurus Egg",
+      "entity.fossilsorigins.plesiosuarus": "Plesiosuarus",
+      "item.fossilsorigins.tyrannosauraus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.cryolophosaurus_dna": "Cryolophosaurus DNA",
+      "entity.fossilsorigins.oviraptor": "Oviraptor",
+      "entity.fossilsorigins.dimetrodon": "Dimetrodon",
+      "item.fossilsorigins.oviraptor_fossil": "Oviraptor Fossil",
+      "block.fossilsorigins.great_basin_bristlecone_pine_button": "Great Basin Bristlecone Pine Button",
+      "item.fossilsorigins.copper_armor_helmet": "Copper Helmet",
+      "entity.fossilsorigins.carnotaurus": "Carnotaurus",
+      "item.fossilsorigins.pteranodon_egg_item": "Pteranodon Egg",
+      "block.fossilsorigins.great_basin_bristlecone_pine_fence": "Great Basin Bristlecone Pine Fence",
+      "item.fossilsorigins.ankylosaurus_egg_item": "Ankylosaurus Egg",
+      "item.fossilsorigins.mosasaurus_fossils": "Mosasaurus Fossils",
+      "item.fossilsorigins.needle_of_dna": "Needle Of DNA",
+      "item.fossilsorigins.dn_ainjector_item": "DNA injector Item",
+      "item.fossilsorigins.carnotaurus_dna": "Carnotaurus DNA",
+      "item.fossilsorigins.pteranodon_spawn_egg": "Pteranodon Spawn Egg",
+      "block.fossilsorigins.dna_modifier": "DNA Modifier",
+      "item.fossilsorigins.spinosaurus_dna": "Spinosaurus DNA",
+      "entity.fossilsorigins.pteranodon_egg_entity": "Dino Egg",
+      "item.fossilsorigins.ankylosaurus_fossil": "Ankylosaurus Fossil",
+      "item.fossilsorigins.copper_tools_pickaxe": "Copper_tools Pickaxe",
+      "block.fossilsorigins.great_basin_bristlecone_pine_pressure_plate": "Great Basin Bristlecone Pine Pressure Plate",
+      "entity.fossilsorigins.pteranodon": "Pteranodon",
+      "item.fossilsorigins.velociraptor_egg_item": "Velociraptor Egg",
+      "item.fossilsorigins.plesiosuarus_spawn_egg": "Plesiosuarus Spawn Egg",
+      "item.fossilsorigins.dilophosaurus_spawn_egg": "Dilophosaurus Spawn Egg",
+      "item.fossilsorigins.pachycephalosaurus_egg_item": "Pachycephalosaurus Egg",
+      "item.fossilsorigins.ankylosaurus_spawn_egg": "Ankylosaurus Spawn Egg",
+      "entity.fossilsorigins.dimetrodon_egg_entity": "Dino Egg",
+      "item.fossilsorigins.copper_tools_shovel": "Copper_tools Shovel",
+      "item.fossilsorigins.spinosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.ancient_gateway": "Ancient Gateway",
+      "entity.fossilsorigins.paleontologist": "Paleontologist",
+      "item.fossilsorigins.triceratops_spawn_egg": "Triceratops Spawn Egg",
+      "item.fossilsorigins.tyrannosaurus_fossil": "Tyrannosaurus Fossil",
+      "item.fossilsorigins.needle_fullof_tranqualizer": "Needle full of tranqualizer",
+      "item.fossilsorigins.stegosaurus_spawn_egg": "Stegosaurus Spawn Egg",
+      "item.fossilsorigins.galimimus_fossil": "Galimimus Fossil",
+      "item.fossilsorigins.oviraptor_spawn_egg": "Oviraptor Spawn Egg",
+      "item.fossilsorigins.mosasaurus_dna": "Mosasaurus DNA",
+      "item.fossilsorigins.mosasaurus_egg_item": "Mosasaurus Sack",
+      "item.fossilsorigins.oviraptor_dna": "Oviraptor DNA",
+      "block.fossilsorigins.ancient_leaves": "Ancient Leaves",
+      "gui.fossilsorigins.dn_amodifier_gui.button_apply_modifications": "Apply changes",
+      "block.fossilsorigins.dna_injector_block": "DNA Injector",
+      "item.fossilsorigins.carnotaurus_egg_item": "Carnotaurus Egg",
+      "item.fossilsorigins.compsognathus_egg_item": "Compsognathus Egg",
+      "item.fossilsorigins.compsognathus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.pachycephalosaurus_egg_entity_spawn_egg": "Dino Egg Spawn Egg",
+      "item.fossilsorigins.ancient_world": "Ancient World Portal Igniter",
+      "item.fossilsorigins.dilophosaurus_dna": "Dilophosaurus DNA",
+      "entity.fossilsorigins.galimimus": "Galimimus",
+      "block.fossilsorigins.ancient_stone": "Ancient Stone",
+      "item.fossilsorigins.carnotaurus_spawn_egg": "Carnotaurus Spawn Egg",
+      "item.fossilsorigins.galimimus_spawn_egg": "Galimimus Spawn Egg",
+      "entity.fossilsorigins.spinosaurus_egg_entity": "Dino Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "procedures",
+        "children": [
+          {
+            "name": "EggHatching",
+            "children": []
+          },
+          {
+            "name": "EggPlacement",
+            "children": []
+          },
+          {
+            "name": "SexualDimorphism",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "items",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "BlockDrops",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
+      },
+      {
+        "name": "tools",
+        "children": []
+      },
+      {
+        "name": "armor",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "fossilsorigins",
+    "modName": "FossilsOrigins",
+    "version": "2.0.6P.A",
+    "description": "Fossils Origins version 2.0.6P.A Ai + animation testing ",
+    "author": "JamesAib",
+    "websiteURL": "https://praepositi.com",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "637967559009047070",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "praepositi, JamesAib",
+    "modElementsPackage": "com.praepositi.fossilsorigins",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300108712
+}

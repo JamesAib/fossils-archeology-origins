@@ -1,0 +1,83 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.Spinosaurus.move": {
+			"loop": true,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*300)*25", 0, 0]
+					},
+					"position": {
+						"vector": [0, "math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"vector": ["-math.cos(query.anim_time*300)*25", 0, 0]
+					},
+					"position": {
+						"vector": [0, "-math.sin(query.anim_time*300)*1.5", 0]
+					}
+				},
+				"tail_connected_to_body": {
+					"rotation": {
+						"vector": [0, "math.cos(query.anim_time*300)*10", 0]
+					}
+				},
+				"tail_connected_to_tail": {
+					"rotation": {
+						"vector": [0, "math.cos(query.anim_time*300)*2 ", 0]
+					}
+				},
+				"MainBody": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*50)", "math.cos(query.anim_time*50)", 0]
+					}
+				}
+			}
+		},
+		"animation.Spinosaurus.idle": {
+			"loop": true,
+			"bones": {
+				"MainBody": {
+					"rotation": {
+						"vector": ["math.cos(query.anim_time*150) ", 0, 0]
+					}
+				}
+			}
+		},
+		"animation.Spinosaurus.attack": {
+			"animation_length": 1,
+			"bones": {
+				"neck_connected_to_head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.25": {
+							"vector": [10, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"lower": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [22.5, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossilsorigins:blocks/stone_bricks-export",
+    "up": "fossilsorigins:blocks/stone_bricks-export",
+    "north": "fossilsorigins:blocks/stone_bricks-export",
+    "east": "fossilsorigins:blocks/stone_bricks-export",
+    "south": "fossilsorigins:blocks/stone_bricks-export",
+    "west": "fossilsorigins:blocks/stone_bricks-export",
+    "particle": "fossilsorigins:blocks/stone_bricks-export"
+  },
+  "render_type": "solid"
+}

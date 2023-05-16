@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GreatBasinBristleconePinePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePinePlanks"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePinePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePinePlanks"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePinePlanks"
+      },
+      {
+        "value": "CUSTOM:GreatBasinBristleconePinePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GreatBasinBristleconePineStairs"
+    },
+    "name": "great_basin_bristlecone_pine_stairs_recipe",
+    "namespace": "mod"
+  }
+}

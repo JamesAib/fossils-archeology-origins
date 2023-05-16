@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fossilsorigins:blocks/greatbasinbristleconepine_log_side",
+    "particle": "fossilsorigins:blocks/greatbasinbristleconepine_log_side"
+  },
+  "render_type": "solid"
+}

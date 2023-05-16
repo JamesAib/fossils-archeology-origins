@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone"
+    },
+    "1": {
+      "item": "minecraft:smooth_stone"
+    },
+    "3": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "4": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "5": {
+      "item": "minecraft:smooth_stone_slab"
+    },
+    "6": {
+      "item": "minecraft:oak_log"
+    },
+    "8": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "fossilsorigins:dn_amodifier_i_tem",
+    "count": 1
+  }
+}

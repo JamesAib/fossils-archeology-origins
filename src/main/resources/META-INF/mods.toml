@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="fossilsorigins"
+version="2.0.6."
+displayName="FossilsOrigins"
+credits="praepositi, JamesAib"
+displayURL="https://praepositi.com"
+logoFile="logo.png"
+authors="JamesAib"
+description='''
+Fossils Origins version 2.0.6P.A Ai + animation testing 
+'''
+
+[[dependencies.fossilsorigins]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.fossilsorigins]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
