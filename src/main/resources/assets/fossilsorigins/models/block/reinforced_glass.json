@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fossilsorigins:blocks/100",
+    "up": "fossilsorigins:blocks/100",
+    "north": "fossilsorigins:blocks/100",
+    "east": "fossilsorigins:blocks/100",
+    "south": "fossilsorigins:blocks/100",
+    "west": "fossilsorigins:blocks/100",
+    "particle": "fossilsorigins:blocks/100"
+  },
+  "render_type": "cutout"
+}

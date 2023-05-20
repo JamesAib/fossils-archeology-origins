@@ -2,9 +2,9 @@
   "_fv": 39,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "tranquilizer_gun",
-    "customModelName": "Normal",
+    "customModelName": "trangun:default",
     "name": "Tranqualizer Dart",
     "specialInfo": [
       "Used to make creatures docile"

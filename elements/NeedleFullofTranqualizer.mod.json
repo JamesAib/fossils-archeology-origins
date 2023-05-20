@@ -2,9 +2,9 @@
   "_fv": 39,
   "_type": "item",
   "definition": {
-    "renderType": 0,
-    "texture": "needle_full_of_tranqualizer",
-    "customModelName": "Normal",
+    "renderType": 1,
+    "texture": "needle_full_of_dna",
+    "customModelName": "dart:default",
     "name": "Needle full of tranqualizer",
     "rarity": "COMMON",
     "creativeTab": {

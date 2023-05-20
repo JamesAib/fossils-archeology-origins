@@ -4439,6 +4439,22 @@
         ]
       },
       "path": "~/items"
+    },
+    {
+      "name": "ReinforcedGlass",
+      "type": "block",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reinforced_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fossilsorigins/models/block/reinforced_glass.json",
+          "src/main/resources/assets/fossilsorigins/blockstates/reinforced_glass.json",
+          "src/main/java/com/praepositi/fossilsorigins/block/ReinforcedGlassBlock.java",
+          "src/main/resources/assets/fossilsorigins/models/item/reinforced_glass.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -4497,6 +4513,7 @@
       "item.fossilsorigins.copper_armor_chestplate": "Copper Chestplate",
       "item.fossilsorigins.dryosaurus_dna": "Dryosaurus DNA",
       "entity.fossilsorigins.dilophosaurus_egg_entity": "Dino Egg",
+      "block.fossilsorigins.reinforced_glass": "Reinforced Glass",
       "item.fossilsorigins.pteranodon_fossil": "Pteranodon Fossil",
       "item.fossilsorigins.dimetrodon_egg_item": "Dimetrodon Egg",
       "item.fossilsorigins.spinosaurus_fossil": "Spinosaurus Fossil",

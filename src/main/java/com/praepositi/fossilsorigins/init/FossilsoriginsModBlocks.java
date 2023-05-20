@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import com.praepositi.fossilsorigins.block.ReinforcedGlassBlock;
 import com.praepositi.fossilsorigins.block.GreatBasinBristleconePineWoodBlock;
 import com.praepositi.fossilsorigins.block.GreatBasinBristleconePineStairsBlock;
 import com.praepositi.fossilsorigins.block.GreatBasinBristleconePinePressurePlateBlock;
@@ -50,6 +51,7 @@ public class FossilsoriginsModBlocks {
 	public static final RegistryObject<Block> ANCIENT_LEAVES = REGISTRY.register("ancient_leaves", () -> new AncientLeavesBlock());
 	public static final RegistryObject<Block> DNA_INJECTOR_BLOCK = REGISTRY.register("dna_injector_block", () -> new DNAInjectorBlockBlock());
 	public static final RegistryObject<Block> DNA_MODIFIER = REGISTRY.register("dna_modifier", () -> new DNAModifierBlock());
+	public static final RegistryObject<Block> REINFORCED_GLASS = REGISTRY.register("reinforced_glass", () -> new ReinforcedGlassBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

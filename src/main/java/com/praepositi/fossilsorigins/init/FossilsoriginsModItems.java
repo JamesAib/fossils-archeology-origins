@@ -176,6 +176,7 @@ public class FossilsoriginsModItems {
 	public static final RegistryObject<Item> DN_AMODIFIER_I_TEM = REGISTRY.register("dn_amodifier_i_tem", () -> new DNAmodifierITemItem());
 	public static final RegistryObject<Item> NEEDLE_FULLOF_TRANQUALIZER = REGISTRY.register("needle_fullof_tranqualizer", () -> new NeedleFullofTranqualizerItem());
 	public static final RegistryObject<Item> TRANQUALIZER_DART = REGISTRY.register("tranqualizer_dart", () -> new TranqualizerDartItem());
+	public static final RegistryObject<Item> REINFORCED_GLASS = block(FossilsoriginsModBlocks.REINFORCED_GLASS, FossilsoriginsModTabs.TAB_FOSSILS_ORIGINS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,6 +1,7 @@
 {
-  "parent": "item/generated",
+  "parent": "fossilsorigins:custom/dart",
   "textures": {
-    "layer0": "fossilsorigins:items/needle_full_of_tranqualizer"
+    "1": "fossilsorigins:blocks/dart",
+    "particle": "fossilsorigins:items/needle_full_of_dna"
   }
 }
